@@ -16,6 +16,11 @@ Sumber data: https://github.com/dicodingacademy/dicoding_dataset/blob/main/stude
 
 Setup environment:
 ```
+- conda create --name myenv python=3.xx # create virtual env with your python version
+- conda activate myenv # activate virtual env
+- pip install -r requirements.txt # install library
+- pip install jupyter # to open jupyter notebook
+- jupyter-notebook . # open jupyter notebook
 
 ```
 
@@ -26,9 +31,13 @@ Link Dashboard:
 https://public.tableau.com/app/profile/rizq.ramadhan5793/viz/DicodingJayaJayaInstitutSubmission/Dashboard1?publish=yes
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
+Disarankan menggunaan VSCode atau IDE sejenisnya, dan membuka terminal dengan perintah:
 
 ```
+- python3 -m venv myenv # create virtual env
+- myenv\Scripts\activate # activate virtual env
+- pip install -r requirements.txt # installing library
+- streamlit run app.py # running streamlit
 
 ```
 Link Prototype Machine Learning:
