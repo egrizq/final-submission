@@ -21,7 +21,6 @@ Setup environment:
 - pip install -r requirements.txt # install library
 - pip install jupyter # to open jupyter notebook
 - jupyter-notebook . # open jupyter notebook
-
 ```
 
 ## Business Dashboard
@@ -38,7 +37,6 @@ Disarankan menggunaan VSCode atau IDE sejenisnya, dan membuka terminal dengan pe
 - myenv\Scripts\activate # activate virtual env
 - pip install -r requirements.txt # installing library
 - streamlit run app.py # running streamlit
-
 ```
 Link Prototype Machine Learning:
 https://rizq-ramadhan-final-submission.streamlit.app/
